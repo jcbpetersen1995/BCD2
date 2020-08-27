@@ -1,0 +1,120 @@
+.jakeBlock {
+    border: white 6px solid;
+    background: rgba(44, 44, 38, 0.719);
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    margin-top: 35%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.myName {
+    font-size: 175px;
+    text-align: center;
+
+
+}
+.jakeText {
+    color: white;
+    font-size: 35px;
+    float: right;
+    
+}
+.profilePhoto {
+    height: 35%;
+    width: 35%;
+    object-fit: contain;
+    float: left;
+    margin: 2%;
+    position: relative;
+    border: white 2px solid;
+}
+
+@keyframes rainbow {
+    from {
+        color: #2828f0;
+      }
+      10% {
+        color: #0099ff;
+      }
+      50% {
+        color: #00ff00;
+      }
+      75% {
+        color: #ff002b;
+      }
+      100% {
+        color: #fac124;
+      }
+      0%,100% {
+        background-position: 0 0;
+    }
+        50% {
+        background-position: 100% 0;
+    }
+}
+
+/*Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .myName {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    .jakeText {
+        font-size: 18px;
+    }
+    .jakeBlock {
+        top: 115%
+    }
+    .profilePhoto {
+        margin-top: 18px;
+        margin-right: 14px;
+    }
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .myName {
+        font-size: 85px;
+    }
+    .jakeText {
+        font-size: 20px;
+    }
+    .jakeBlock {
+        top: 105%;
+    }
+    .profilePhoto {
+        margin-top: 5%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .myName {
+        font-size: 95px;
+    }
+    .jakeBlock {
+        top: 125%;
+    }
+    .jakeText {
+        font-size: 30px;
+    }
+    .profilePhoto {
+        margin-top: 40px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ }

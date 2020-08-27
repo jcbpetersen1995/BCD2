@@ -1,0 +1,14 @@
+body {
+    background-image: url('../images/rainbow.tiny.jpeg');
+    animation: moveIt 10s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+@keyframes moveIt {
+    from {background-position: bottom left;}
+    to {background-position: top right;}
+  }

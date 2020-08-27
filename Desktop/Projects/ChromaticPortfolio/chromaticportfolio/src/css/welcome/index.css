@@ -1,0 +1,115 @@
+.welcomeText {
+    font-size: 250px;
+    text-align: center;
+    color: white;
+    animation: fadeInAnimation ease 4s; 
+    animation-iteration-count: 5; 
+    animation-fill-mode: forwards;
+    /* text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191 */
+}
+.welcomeBlock {
+    border: white 6px solid;
+    background: rgba(44, 44, 38, 0.719);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 5%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.rainbowText {
+    animation-name: rainbow 6s linear 2s infinte;
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+.chromaticText {
+    color: white;
+    text-align: left;
+    margin-top: 25%;
+    margin-bottom: 1%;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes rainbow {
+    from {
+        color: #2828f0;
+      }
+      10% {
+        color: #0099ff;
+      }
+      50% {
+        color: #00ff00;
+      }
+      75% {
+        color: #ff002b;
+      }
+      100% {
+        color: #fac124;
+      }
+      0%,100% {
+        background-position: 0 0;
+    }
+        50% {
+        background-position: 100% 0;
+    }
+}
+
+/*Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .welcomeText {
+        font-size: 90px;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .welcomeText {
+        font-size: 135px;
+    }
+    .chromaticText {
+        margin-top: 55%
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcomeText {
+        font-size: 175px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) {
+    .welcomeText {
+        font-size: 180px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .welcomeText {
+        font-size: 240px;
+    }
+    .chromaticText {
+        margin-top: 20%;
+    }
+    .welcomeBlock {
+        top: 45%;
+    }
+ }

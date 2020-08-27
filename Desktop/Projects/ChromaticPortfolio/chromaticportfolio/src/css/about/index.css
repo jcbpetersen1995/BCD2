@@ -1,0 +1,117 @@
+.aboutBlock {
+    position: absolute;
+    border: white 6px solid;
+    background: rgba(44, 44, 38, 0.719);
+    top: 200%;
+    left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%, -50%);
+}
+.aboutMe {
+    font-size: 170px;
+    text-align: center;
+    color: white;
+
+}
+.aboutMeText {
+    color: white;
+    font-size: 35px;
+    float: right;
+}
+.aboutMeLogo {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin: 2%;
+    border: rgb(88, 90, 224) solid 10px;
+}
+@keyframes rainbow {
+    from {
+        color: #2828f0;
+      }
+      10% {
+        color: #0099ff;
+      }
+      50% {
+        color: #00ff00;
+      }
+      75% {
+        color: #ff002b;
+      }
+      100% {
+        color: #fac124;
+      }
+      0%,100% {
+        background-position: 0 0;
+    }
+        50% {
+        background-position: 100% 0;
+    }
+}
+
+/*Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .aboutMe {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    .aboutMeText {
+        font-size: 18px;
+    }
+    .aboutBlock {
+        top: 215%
+    }
+    .aboutMeLogo {
+        margin-top: 18px;
+        margin-right: 14px;
+        border: 4px solid rgb(88, 90, 224);
+    }
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .aboutMe {
+        font-size: 85px;
+    }
+    .aboutMeText {
+        font-size: 20px;
+    }
+    .aboutBlock {
+        top: 205%;
+    }
+    .aboutMeLogo {
+        margin-top: 5%;
+        border: 4px solid rgb(88, 90, 224);
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .aboutMe {
+        font-size: 95px;
+    }
+    .aboutBlock {
+        top: 260%;
+    }
+    .aboutMeText {
+        font-size: 30px;
+    }
+    .aboutMeLogo {
+        margin-top: 40px;
+        border: 4px solid rgb(88, 90, 224);
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) {
+    .aboutBlock {
+        top: 270%;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ }
