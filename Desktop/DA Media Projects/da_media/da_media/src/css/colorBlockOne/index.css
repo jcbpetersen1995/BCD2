@@ -1,0 +1,151 @@
+/* .body {
+    background-image: url('../../images/podcast.jpeg');
+} */
+.colorBlock {
+    position: absolute;
+    top: 110%;
+    background-color: rgb(72, 75, 30);
+    width: 100%;
+
+}
+.podcastImage {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+    opacity: .4;
+}
+.header {
+    position: absolute;
+    top: 5%;
+    left: 13%;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.dom {
+    font-size: 80px;
+
+}
+.sub {
+    font-size: 35px;
+    margin-top: 40px;
+}
+.liDom {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.liSub {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.list {
+    position: absolute;
+    left: 0px;
+}
+.emphasis {
+    color: rgb(229, 255, 0);
+    font-size: 18px;
+}
+.li-icons {
+    margin-right: 6px;
+}
+.arrowDownTwo {
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 47%;
+    top: 235%;
+    
+    color: white;
+
+}
+
+/*////////////////////////////////// Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .colorBlock {
+
+    }
+    .podcastImage {
+        height: 950px;
+    }
+    .header {
+        left: 0;
+    }
+    .dom {
+        font-size: 45px;
+    }
+    .sub {
+        font-size: 20px;
+    }
+    .liDom {
+        font-size: 20px;
+    }
+    .liSub {
+        font-size: 15px;
+    }
+    .arrowDownTwo {
+        top: 370%;
+        left: 50%;
+    }
+  }
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767px) {
+    .colorBlock {
+
+    }
+    .podcastImage {
+        
+    }
+    .header {
+        
+    }
+    .dom {
+        font-size: 40px;
+    }
+    .sub {
+        font-size: 25px;
+    }
+    .liDom {
+        font-size: 22px;
+    }
+    .liSub {
+        font-size: 15px;
+    }
+    .arrowDownTwo {
+        top: 350%;
+        left: 50%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .header {
+    }
+    .dom {
+        font-size: 55px;
+    }
+    .sub {
+        font-size: 30px;
+    }
+    .liDom {
+        font-size: 25px;
+    }
+    .liSub {
+        font-size: 20px;
+    }
+    .arrowDownTwo {
+        top: 300%;
+        left: 45%;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1999px) {
+
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+
+  }

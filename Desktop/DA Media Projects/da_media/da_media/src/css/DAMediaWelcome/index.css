@@ -1,0 +1,137 @@
+body {
+    background-image: url('../../images/AdobeStock_230523774.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcomeText {
+    font-family: 'Monda', sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
+    /* color: #5e18eb; */
+    color: #ff000049;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 2s ease-in both;
+    display: inline;
+	position: relative;
+	font-size: 230px;
+    letter-spacing: 20px;
+    font-weight: bolder;
+}
+.welcomeText:after {
+    content: "DA MEDIA";
+    color: rgba(196, 243, 65, 1.1);
+    position: fixed;
+    top: 30px;
+    left: 0px;
+}
+.welcomeTextBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(44, 44, 38, 0.377);
+    border: white solid 5px;
+}
+.premierText {
+    color: white;
+    font-family: "Open Sans Condensed", sans-serif;
+    animation: fadeIn 2s ease-in both;
+    animation-delay: 1.5s;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-bottom: 10%;
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+}
+.servicesList li {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: white;
+    font-size: 25px;
+    animation: fadeIn 2s ease-in both;
+    animation-delay: 1s;
+}
+.arrowDown {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.getStartedButton {
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 25px;
+    background: transparent;
+    color: white;
+    border: white solid 1px;
+    padding: 5px 20px 5px 20px;
+}
+.getStartedButton:hover {
+    color: black;
+    background-color: white;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(-50%, 0, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+/*////////////////////////////////// Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .welcomeText {
+        font-size:120px;
+    }
+    .welcomeTextBox {
+        top: 50%;
+
+    }
+    .premierText {
+        font-size: 25px;
+        margin-top: 17%;
+        margin-bottom: 15%;
+    }
+  }
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767px) {
+    .welcomeText {
+        font-size: 130px;
+    }
+    .welcomeTextBox {
+        top: 50%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .welcomeText {
+        font-size: 150px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1999px) {
+    .welcomeTextBox {
+        top: 50%;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .welcomeTextBox {
+        top: 50%;
+    }
+  }

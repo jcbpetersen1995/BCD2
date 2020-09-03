@@ -1,0 +1,131 @@
+.navbarSection {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  /* height: 190px; */
+  width: 100%;
+  /* background-color: rgb(74, 29, 236); */
+  background-color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.navbarLogo {
+  position: fixed;
+  height: 170px;
+  width: 170px;
+  top: 15px;
+  left: 10px;
+}
+.brandStatement {
+  color: black;
+}
+.navbarLinks {
+  position: relative;
+  text-align: right;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+
+/*////////////////////////////////// Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  /* .navbarSection {
+        height: 100px;
+    } */
+  .brandStatement {
+    /* position: absolute;
+        top: 39%;
+        left: 25%;
+        color: white;
+        text-align: center;
+        font-size: 18px; */
+    position: absolute;
+    left: 10px;
+    top: 80%;
+    font-size: 18px;
+  }
+  .navbarLogo {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    height: 100px;
+    width: 100px;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .brandStatement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navbarLogo {
+    position: fixed;
+    left: 15px;
+    top: 3%;
+    height: 130px;
+    width: 130px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .brandStatement {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navbarLogo {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1999px) {
+  .navbarSection {
+    position: fixed;
+    height: 195px;
+    width: 100%;
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  .brandStatement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+  }
+  .navbarLinks {
+    position: absolute;
+    right: 10px;
+    top: 75%;
+    font-size: 25px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .navbarSection {
+    position: fixed;
+    top: 0px;
+    height: 195px;
+    width: 100%;
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  .brandStatement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+  }
+}

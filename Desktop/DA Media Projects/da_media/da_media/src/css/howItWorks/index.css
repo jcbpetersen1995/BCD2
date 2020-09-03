@@ -1,0 +1,126 @@
+.howItWorksSection {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: "Open Sans Condensed", sans-serif;
+    /* background: rgba(75, 29, 204, 0.678); */
+    /* font-family: 'Lexend Peta', sans-serif; */
+    text-align: center;
+    background-color: rgba(72, 75, 30, .4);
+    
+
+}
+.denverSkyline {
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.introText {
+    font-size: 80px;
+    color: #ffff33;
+    font-family: 'Lexend Peta', sans-serif;
+    padding-top: 90px;
+}
+.whoWeAre {
+    color: #ffff33;
+    font-size: 40px;
+    text-align: left;
+}
+.arrowDown {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*////////////////////////////////// Media Queries*/
+
+/*Xs devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .howItWorksSection {
+        top: 50%;
+    }
+    .introText {
+        font-size: 35px;
+        text-align: left;
+    }
+    .whoWeAre {
+        font-size: 20px;
+        
+    }
+    .arrowDown {
+        top: 105%;
+    }
+  }
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767px) {
+    .howItWorksSection {
+        top: 45%;
+    }
+    .introText {
+        font-size: 40px;
+        text-align: left;
+    }
+    .whoWeAre {
+        font-size: 20px;
+        text-align: left;
+    }
+    .arrowDown {
+        top: 103%;
+    }
+
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .arrowDown {
+        top: 90%;
+    }
+    .whoWeAre {
+        font-size: 30px;
+    }
+    .introText {
+        font-size: 50px;
+    }
+    .howItWorksSection {
+        top: 50%;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1999px) {
+    .howItWorksSection {
+        top: 40%;
+    }
+    .introText {
+        font-size: 50px;
+    }
+    .whoWeAre {
+        font-size: 30px;
+    }
+    .arrowDown {
+        top: 85%;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .whoWeAre {
+        font-size: 35px;
+        margin-top: 45px;
+    }
+    .introText {
+        font-size: 70px;
+    }
+    .howItWorksSection {
+        top: 35%;
+    }
+    .arrowDown {
+        top: 90%;
+    }
+  }
+  
