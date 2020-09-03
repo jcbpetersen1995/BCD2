@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/jcbpetersen1995/Multichromatic/static/css/main.4f03dc10.chunk.css",
-    "main.js": "/jcbpetersen1995/Multichromatic/static/js/main.b4dc2407.chunk.js",
-    "main.js.map": "/jcbpetersen1995/Multichromatic/static/js/main.b4dc2407.chunk.js.map",
-    "runtime-main.js": "/jcbpetersen1995/Multichromatic/static/js/runtime-main.c0ad9dd1.js",
-    "runtime-main.js.map": "/jcbpetersen1995/Multichromatic/static/js/runtime-main.c0ad9dd1.js.map",
-    "static/css/2.11829350.chunk.css": "/jcbpetersen1995/Multichromatic/static/css/2.11829350.chunk.css",
-    "static/js/2.be1bf012.chunk.js": "/jcbpetersen1995/Multichromatic/static/js/2.be1bf012.chunk.js",
-    "static/js/2.be1bf012.chunk.js.map": "/jcbpetersen1995/Multichromatic/static/js/2.be1bf012.chunk.js.map",
-    "index.html": "/jcbpetersen1995/Multichromatic/index.html",
-    "precache-manifest.b3cad587ac648910961c7d8174e17db0.js": "/jcbpetersen1995/Multichromatic/precache-manifest.b3cad587ac648910961c7d8174e17db0.js",
-    "service-worker.js": "/jcbpetersen1995/Multichromatic/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/jcbpetersen1995/Multichromatic/static/css/2.11829350.chunk.css.map",
-    "static/css/main.4f03dc10.chunk.css.map": "/jcbpetersen1995/Multichromatic/static/css/main.4f03dc10.chunk.css.map",
-    "static/js/2.be1bf012.chunk.js.LICENSE.txt": "/jcbpetersen1995/Multichromatic/static/js/2.be1bf012.chunk.js.LICENSE.txt",
-    "static/media/JP.logo.tiny.png": "/jcbpetersen1995/Multichromatic/static/media/JP.logo.tiny.92fd6daa.png",
-    "static/media/JacobPetersen_r1_DEN_3082.jpg": "/jcbpetersen1995/Multichromatic/static/media/JacobPetersen_r1_DEN_3082.51507982.jpg",
-    "static/media/index.css": "/jcbpetersen1995/Multichromatic/static/media/rainbow.tiny.bb389ad4.jpeg"
+    "main.css": "/DAMediaColorado/static/css/main.9ed28f17.chunk.css",
+    "main.js": "/DAMediaColorado/static/js/main.a50ea0aa.chunk.js",
+    "main.js.map": "/DAMediaColorado/static/js/main.a50ea0aa.chunk.js.map",
+    "runtime-main.js": "/DAMediaColorado/static/js/runtime-main.48dade56.js",
+    "runtime-main.js.map": "/DAMediaColorado/static/js/runtime-main.48dade56.js.map",
+    "static/css/2.11829350.chunk.css": "/DAMediaColorado/static/css/2.11829350.chunk.css",
+    "static/js/2.8d0b0abd.chunk.js": "/DAMediaColorado/static/js/2.8d0b0abd.chunk.js",
+    "static/js/2.8d0b0abd.chunk.js.map": "/DAMediaColorado/static/js/2.8d0b0abd.chunk.js.map",
+    "index.html": "/DAMediaColorado/index.html",
+    "precache-manifest.a1a7360c09ceba709f768164722bbe23.js": "/DAMediaColorado/precache-manifest.a1a7360c09ceba709f768164722bbe23.js",
+    "service-worker.js": "/DAMediaColorado/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/DAMediaColorado/static/css/2.11829350.chunk.css.map",
+    "static/css/main.9ed28f17.chunk.css.map": "/DAMediaColorado/static/css/main.9ed28f17.chunk.css.map",
+    "static/js/2.8d0b0abd.chunk.js.LICENSE.txt": "/DAMediaColorado/static/js/2.8d0b0abd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/DAMediaColorado/static/media/AdobeStock_230523774.92c122e0.jpeg",
+    "static/media/blacknobackground.png": "/DAMediaColorado/static/media/blacknobackground.1480b796.png",
+    "static/media/podcast.jpeg": "/DAMediaColorado/static/media/podcast.994e2057.jpeg",
+    "static/media/web.jpeg": "/DAMediaColorado/static/media/web.fc198fe6.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0ad9dd1.js",
+    "static/js/runtime-main.48dade56.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.be1bf012.chunk.js",
-    "static/css/main.4f03dc10.chunk.css",
-    "static/js/main.b4dc2407.chunk.js"
+    "static/js/2.8d0b0abd.chunk.js",
+    "static/css/main.9ed28f17.chunk.css",
+    "static/js/main.a50ea0aa.chunk.js"
   ]
 }
